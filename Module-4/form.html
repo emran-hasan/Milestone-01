@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="CSS/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="table.html">Table</a></li>
+            <li>
+                <a href="index.html">Home</a>
+                <ul class="dropdown">
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                </ul>
+            </li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <h1>Welcome to Jamal er maa er Pitha Ghor</h1>
+    <form>
+        <label for="text">Enter your Name:
+            <input type="text" placeholder="Enter your name" id="name">
+        </label>
+
+        <label for="email">Enter your email:
+            <input type="email"id="eamil" placeholder="Enter your name"> 
+        </label>
+        <fieldset>
+            <legend>Chose your pitha:</legend>
+            <input type="radio" name="pitha" id="vapa">Vapa
+            <input type="radio" name="pitha" id="chitoy">Chitoy
+            <input type="radio" name="pitha" id="Tel">Tel
+        </fieldset>
+        <fieldset>
+            <legend>Chose vorta</legend>
+            <input type="checkbox" name="vorta" id="sutki">Sutki
+            <input type="checkbox" name="vorta" id="dhoniya">Dhoniya pata
+            <input type="checkbox" name="vorta" id="sutki">Morich
+        </fieldset>
+        <fieldset>
+            <legend>Special comments</legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>

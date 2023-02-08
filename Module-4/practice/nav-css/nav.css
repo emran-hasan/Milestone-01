@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    list-style: none;  
+}
+nav  li{
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    
+    color: black;
+
+}
+nav ul li:hover{
+    background-color: lightgray;
+}
+.header{
+    background-color: aquamarine;
+}
+/* dropDown Menu */
+nav  ul .dropDown{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    padding-right: 0;
+}
+
+nav li:hover > .dropDown{
+    display: block;
+    padding-left: 0;
+    
+}

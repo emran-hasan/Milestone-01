@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="/nav-css/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        td,th{
+            border: 1px solid lightgray;
+            padding: 10px 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="social.html">Social</social></a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h3>This is a simple table:</h3>
+    <table>
+        <caption>Bachelor bazar list:</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Unit</th>
+                <th>Company</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rice</td>
+                <td>1200tk</td>
+                <td>40kg</td>
+                <td>RFL</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dal</td>
+                <td>900tk</td>
+                <td>10kg</td>
+                <td>Deshi</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tel</td>
+                <td>1200tk</td>
+                <td>8liter</td>
+                <td>Pusti</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Suji</td>
+                <td>600tk</td>
+                <td>5kg</td>
+                <td>Pure</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="">Total</td>
+                <td colspan="">3900tk</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
